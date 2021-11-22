@@ -1,0 +1,73 @@
+body {
+  font-family: "open-sans", sans-serif;
+  font-size: 16px;
+  color: #333333;
+  position: center;
+}
+
+p {
+  margin-bottom: 10px;
+}
+
+.accessibility-bar-wrapper {
+  position: relative;
+  background-color: #fff;
+  color: #E74C3C;
+  min-height: 20px;
+  padding-top: 5px;
+  padding-bottom: 3px;
+  padding-left: 100px;
+  width: 100%;
+  font-size: 0.7em;
+}
+
+.accessibility-bar-wrapper a {
+  color: #E74C3C;
+  text-decoration: none;
+}
+
+.accessibility-bar-wrapper a:not(:last-child) {
+  margin-right: 20px;
+}
+
+.numero-acessibilidade {
+  background-color: #fff;
+  color: #E74C3C;
+  padding: 0 2px 0 3px;
+  margin-right: 4px;
+  border: 1px solid #E74C3C;
+}
+
+[data-theme=dark] {
+  background-color: #111 !important;
+  color: #eee;
+}
+
+[data-theme=dark] .bg-light {
+  background-color: #333 !important;
+}
+
+[data-theme=dark] .bg-white {
+  background-color: #000 !important;
+}
+
+[data-theme=dark] .bg-black {
+  background-color: #eee !important;
+}
+
+.btn-secondary {
+  background-color: #756660;
+  border: none;
+  margin: 30px 0;
+}
+
+.header {
+  padding: 80px 50px;
+  background-color: #e74c3c;
+  margin-bottom: 40px;
+}
+.header h1 {
+  color: #fff;
+}
+
+/*# sourceMappingURL=styles.css.map */
